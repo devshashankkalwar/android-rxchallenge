@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/rows_of_list">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:weightSum="3">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5dp"
+        android:textSize="15dp"
+        android:gravity="left"
+        android:id="@+id/tvShipname"
+        android:hint="Ship Name"
+        android:layout_weight="2"
+        android:textColor="#a52a2a"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:paddingRight="5dp"
+            android:textSize="15dp"
+            android:gravity="right"
+            android:id="@+id/tvShipCost"
+            android:hint="Cost"
+            android:layout_weight="1"
+            android:textColor="#458b00"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="2dp"
+        android:paddingLeft="5dp"
+        android:textSize="12dp"
+        android:id="@+id/tvFilmtag"
+        android:text="Films:"
+        android:textColor="#8b0a50"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:id="@+id/tvFilmLsit"
+        android:textSize="12dp"
+        android:hint="Loading FIlm List....."
+        android:textColor="#0000FF"/>
+    <View
+        android:layout_height="1dp"
+        android:layout_width="match_parent"
+        android:background="#000000"
+        />
+
+</LinearLayout>
